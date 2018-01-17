@@ -1,0 +1,30 @@
+{
+  "name": "learning-koajs",
+  "version": "1.0.0",
+  "description": "learning koajs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koajs"
+  ],
+  "author": "eri irawan",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-morgan": "^1.0.1",
+    "koa-response-time": "^2.0.0",
+    "koa-router": "^7.3.0",
+    "mongoose": "^4.13.9"
+  },
+  "devDependencies": {
+    "co": "^4.6.0",
+    "mocha": "^4.1.0",
+    "supertest": "^3.0.0"
+  },
+  "directories": {
+    "test": "test"
+  }
+}
